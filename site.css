@@ -1,0 +1,93 @@
+body
+{
+background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}p /* Balise des paragraphes */
+{
+color:green; /* Tous les paragraphes seront en bleu */
+font-family:Arial,serif; /* Types de police */
+font-size:16px; /* Taille de police en pixels */
+font-weight:normal; /* Le texte n’est pas en gras */
+}
+h1 /* Balise des titres h1 */
+{
+color:black; /* Tous les titres h1 seront en rouge */
+text-align:center; /* Les titres h1 seront centrés */
+font-weight:bold; /* Les titres h1 seront en gras */
+text-decoration:normal; /* Les titres h1 seront soulignés */
+}
+header /* Balise pour le titre de la page */
+{
+background-color:rgb(0, 102, 255); /* couleur de fond */
+border:2px black solid; /* taille en pixels, couleur, styles de la bordure */
+border-radius:4px; /* bordure arrondie */
+padding:4px 4px 4px 4px; /* marges internes */
+margin-bottom:10px; /* marge externe basse */
+font-size:20px; /* taille de la police */
+font-weight:bold; /* texte en gras */
+text-align:center; /* le texte est centré */
+min-width:700px; /* largeur minimum du bloc */
+}
+h2 /* Balise des titres h2 */
+{
+color:red; /* Tous les titres h2 seront en vert */
+text-align:left; /* Les titres h2 seront alignés à gauche */
+font-style:italic; /* Les titres h2 seront en italique */
+}
+p /* Balise des paragraphes */
+{
+color:black; /* Tous les paragraphes seront en bleu */
+font-family:Arial,serif; /* Types de police */
+font-size:16px; /* Taille de police en pixels */
+font-weight:normal; /* Le texte n’est pas en gras */
+}
+footer /* Balise pour le titre de la page */
+{
+background-color:white; /* couleur de fond */
+border:2px black solid; /* taille en pixels, couleur, styles de la bordure */
+border-radius:4px; /* bordure arrondie */
+padding:4px 4px 4px 4px; /* marges internes */
+margin-bottom:10px; /* marge externe basse */
+font-size:40px; /* taille de la police */
+font-weight:normal; /* texte en gras */
+text-align:center; /* le texte est centré */
+min-width:70px; /* largeur minimum du bloc */
+}
+section /* Balise pour le contenu principal de la page */
+{
+background-color:rgb(214,214,214); /* couleur de fond */
+border:2px black solid; /* taille en pixels, couleur, styles de la bordure */
+border-radius:4px; /* bordure arrondie */
+padding:4px 4px 4px 4px; /* marges internes */
+margin-left:170px; /* marge externe gauche */
+margin-bottom:10px; /* marge externe basse */
+min-width:500px; /* largeur minimum du bloc */
+min-height:200px; /* hauteur minimum du bloc */
+}
+nav /* Balise pour le menu de la page */
+{
+float:left; /* Le menu flotera à gauche */
+padding:4px 4px 4px 4px; /* marges internes */
+margin-bottom:5px; /* marge externe basse */
+width:150px; /* largeur du bloc */
+}
+h3 /* Balise des titres h1 */
+{
+color:blue; /* Tous les titres h1 seront en rouge */
+text-align:center; /* Les titres h1 seront centrés */
+font-weight:bold; /* Les titres h1 seront en gras */
+text-decoration:normal; /* Les titres h1 seront soulignés */
+text-decoration:underline;
+}
+a /* Balise des liens */
+{
+color:blue; /* Couleur des liens */
+}
+
+a:hover
+{
+color:rgb(255,102,204); /* Couleur des liens quand on passe la souris dessus */
+}

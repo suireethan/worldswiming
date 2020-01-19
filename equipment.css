@@ -96,7 +96,7 @@ hr
 height:3px;
 background-color:black;
 }
-#conteneur
+.conteneur
 {
     display: flex;
 }

@@ -1,4 +1,10 @@
-
+body
+{
+background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("images.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }p /* Balise des paragraphes */
 {
 color:green; /* Tous les paragraphes seront en bleu */
@@ -15,7 +21,7 @@ text-decoration:normal; /* Les titres h1 seront soulignés */
 }
 header /* Balise pour le titre de la page */
 {
-background-color:rgb(0, 255, 255); /* couleur de fond */
+background-color:rgb(0, 102, 255); /* couleur de fond */
 border:2px black solid; /* taille en pixels, couleur, styles de la bordure */
 border-radius:4px; /* bordure arrondie */
 padding:4px 4px 4px 4px; /* marges internes */
